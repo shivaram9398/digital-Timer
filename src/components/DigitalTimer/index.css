@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #cffcf1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+}
+
+.time {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width:576px) {
+  .time {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.round {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+}
+
+.bg-image {
+  height: 350px;
+  width: 400px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  border-radius: 70px;
+  background-color: #fff;
+  height: 140px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.minutes {
+  color: #00d9f5;
+}
+
+.para {
+  font-family: Roboto;
+  font-weight: 600;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button {
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.image1 {
+  height: 20px;
+  width: 20px;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.short {
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 23px;
+  margin-top: 15px;
+}
+
+.time-seter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.weight {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.set {
+  background-image: linear-gradient(to right, #cffcf1,#00d9f5);
+  height: 28px;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
